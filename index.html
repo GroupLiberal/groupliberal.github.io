@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              default: "#013a81",
+            },
+          },
+        },
+      };
+    </script>
+    <title>Grupo Liberal</title>
+  </head>
+  <body class="text-default">
+    <div class="h-20 bg-default flex justify-center">
+      <header
+        class="h-full w-full flex justify-between px-5 max-w-[900px] bg-default"
+      >
+        <div class="h-full p-3 flex 
+        min-w-[115px]">
+          <img
+            src="./assets/images/grupoliberal-logo.png"
+            alt=""
+            height="100%"
+          />
+        </div>
+        <nav class="h-full">
+          <ul
+            class="h-full flex gap-2 text-white h-full justify-center items-center"
+          >
+            <li class=""><a href="/">Home</a></li>
+            <li class=""><a href="/#nossa-historia">Nosso História</a></li>
+            <li class=""><a href="/#linha-do-tempo">Linha do tempo</a></li>
+            <li class=""><a href="/#evolucao">Evolução</a></li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+    <div class="max-w-[900px] m-auto px-5">
+      <div class="flex justify-center items-center my-20">
+        <img src="./assets/images/img_grupo03.jpg" alt="" />
+      </div>
+      <div class="mb-20 text-lg" id="nossa-historia">
+        <h2 class="font-bold text-xl mb-8">NOSSA HISTÓRIA</h2>
+        <p class="mb-2">
+          O <strong>Grupo Liberal</strong> foi fundado em 1966 com a aquisição
+          de O Liberal pelo jornalista e empresário Romulo Maiorana. De lá pra
+          cá, os principais fatos e acontecimentos que marcaram a vida dos
+          paraenses são, diariamente, narrados em nossas linhas, contados em
+          nossos telejornais, sintonizados em nossas emissoras de rádio e
+          compartilhados mundo afora pelas multiplataformas da web.
+        </p>
+
+        <p>
+          Com sede em Belém e escritórios em Brasília e em São Paulo, o
+          <strong>Grupo Liberal</strong> é o maior conglomerado de comunicação
+          do Pará, um dos maiores do Brasil e o 4º maior afiliado à Rede Globo.
+        </p>
+      </div>
+      <div id="linha-do-tempo" class="mb-20">
+        <h2 class="font-bold text-xl mb-8">Linha do tempo</h2>
+        <img src="./assets/images/linha_do_tempo_pc.png" alt="" />
+      </div>
+      <div id="evolucao" class="mb-20">
+        <h2 class="font-bold text-xl mb-8">Evolução das nossas marcas</h2>
+        <img
+          src="./assets/images/evolucao_da_marca-1.jpg"
+          width="100%"
+          alt=""
+        />
+      </div>
+    </div>
+    <footer class="px-5 bg-default h-20 text-white text-center">
+      <div
+        class="max-w-[900px] mx-auto h-full text-xs flex items-center text-center justify-center md:justify-between w-full gap-3 flex-col md:flex-row"
+      >
+        Copyright © 2023 Grupo Liberal.
+        <a href="/termo-e-privacidade"> Termos de uso</a>
+      </div>
+    </footer>
+  </body>
+</html>
